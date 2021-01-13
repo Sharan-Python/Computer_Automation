@@ -35,7 +35,7 @@ def time_up():
 
 schedule.every().monday.at("13:48").do(job) # Line 36 - 46 can be edited as per your choice, it has simple syntax, so it should not be hard
 schedule.every().tuesday.at("13:48").do(job) # Line 36 - 46 uses schedule module to run functions we defined above
-schedule.every().wednesday.at("13:48").do(job)
+schedule.every().wednesday.at("13:48").do(job) # Line 36 - 46 USE ONLY 24 HOUR TIME FORMAT, USE '0' TO FILL UP EMPTY SPACES IN THE TIME LIKE - 06:56 
 schedule.every().thursday.at("13:48").do(job)
 schedule.every().friday.at("13:48").do(job)
 
