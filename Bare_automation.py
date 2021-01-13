@@ -31,10 +31,10 @@ def time_up():
     notify.show_toast("ALERT", "Its Almost Time For Class",
                       icon_path="C:/Windows/SystemApps/Microsoft.Windows.SecHealthUI_cw5n1h2txyewy/Assets/Device.contrast-white.ico",
                       duration=5)
-    # I have online classe so I get reminder for that
+    # I have online classes so I get a reminder for that
 
 schedule.every().monday.at("13:48").do(job) # Line 36 - 46 can be edited as per your choice, it has simple syntax, so it should not be hard
-schedule.every().tuesday.at("13:48").do(job)
+schedule.every().tuesday.at("13:48").do(job) # Line 36 - 46 uses schedule module to run functions we defined above
 schedule.every().wednesday.at("13:48").do(job)
 schedule.every().thursday.at("13:48").do(job)
 schedule.every().friday.at("13:48").do(job)
